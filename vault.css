@@ -5,17 +5,30 @@
   background-size: cover;
   background-color: rgb(93, 69, 47);
 }
+
+/* SECRET MESSAGE */
+#message {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  text-shadow: 3px 2px 1px rgb(70, 33, 18);
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  margin-top: 10px;
+  background-color: rgba(129, 81, 49, 0.362);
+}
 .mess {
   background-image: url("https://cdna.artstation.com/p/assets/images/images/013/242/702/large/bryan-tsai-15440334-10154917967248010-30808027857361677-o.jpg?1538701308");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(93, 69, 47);
+  background-color: rgba(0, 0, 0, 0.883);
 }
 
 /* TITLE */
 #title {
-  font-size: 80px;
-  text-shadow: 9px 2px 3px rgba(95, 71, 26, 0.737);
+  font-size: 300px;
+  text-shadow: 19px 4px 20px rgb(91, 51, 35);
   padding-left: 5px;
   margin-top: 165px;
 }
@@ -100,14 +113,4 @@
   background-color: #3c2603d9;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
-/* SECRET MESSAGE */
-#message {
-  font-size: 13px;
-  font-weight: bolder;
-  text-shadow: 3px 2px 2px rgb(34, 19, 2);
-  padding-left: 10px;
-  margin-left: 10px;
-  margin-top: 90px;
 }
